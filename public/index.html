@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mike Hernandez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/tachyons/css/tachyons.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <script src="assets/angular/angular.min.js"></script>
+    <script src="assets/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="public/app.js"></script>
+
+    <style>
+        img {
+            border: 1px black;
+            margin: 0px 0px 10px 5px;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <base href="/">
+</head>
+
+<body ng-app="app" ng-controller="HomeController as $ctrl" class="vh-100 dt w-100 cover" style="background:url(public/images/110overview.jpg) no-repeat center">
+    <nav class="db dt-l w-100 border-box ph5-l sans-serif bg-near-white bb">
+        <!-- took out pa3 -->
+        <a class="db dtc-l v-mid dark-gray w-100 w-25-l tc tl-l mb2 mb0-l pb1" ui-sref="home">
+            <h1 class="dib br-100 b f2" alt="Site Name"> {{$ctrl.tagline}}</h1>
+        </a>
+        <div class="db dtc-l v-mid w-100 w-75-l tc tr-l pb1">
+            <a class="link no-under dim dark-gray f6 f5-l dib mr3 mr4-l b" ui-sref="about">About</a>
+            <a class="link no-under dim dark-gray f6 f5-l dib mr3 mr4-l b" ui-sref="services">Services</a>
+            <a class="link no-under dim dark-gray f6 f5-l dib mr3 mr4-l b" ui-sref="contact">Contact</a>
+            <!--<a href="#" class="link black hover-bg-light-gray b" ui-sref="services">Other</a>-->
+        </div>
+    </nav>
+    <div class="container">
+        <ui-view></ui-view>
+    </div>
+</body>
+
+</html>
