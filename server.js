@@ -32,7 +32,7 @@ app.use('/assets', express.static(path.join(__dirname, 'node_modules'), {
     fallthrough: false
 }))
 
-// handle 404 =========================================
+// handle 404 ========================
 app.use((err, req, res, next) => {
     console.log(err.stack)
     res.sendStatus(404)
