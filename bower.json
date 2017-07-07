@@ -1,0 +1,23 @@
+{
+  "name": "mikeh",
+  "description": "mh1",
+  "main": "server.js",
+  "authors": [
+    "IC"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/HollaAtIce/mikeh",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-ui-router": "^1.0.5"
+  }
+}

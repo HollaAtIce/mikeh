@@ -19,9 +19,9 @@
   "homepage": "https://github.com/HollaAtIce/mikeh#readme",
   "dependencies": {
     "@uirouter/angularjs": "^1.0.3",
-    "angular": "^1.6.4",
     "body-parser": "^1.17.2",
     "bootstrap": "^3.3.7",
+    "bower": "^1.8.0",
     "dotenv": "^4.0.0",
     "express": "^4.15.3",
     "font-awesome": "^4.7.0",
