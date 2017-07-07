@@ -5,6 +5,5 @@ module.exports = {
         res.sendFile('public/index.html', {
             root: path.join(__dirname, '../..')
         })
-        console.log('here at sites controller')
     }
 }

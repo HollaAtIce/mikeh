@@ -39,7 +39,7 @@ app.use((err, req, res, next) => {
 })
 
 app.use((req, res, next) => {
-    console.log('Time:' + Date.now())
+    console.log('up and atom')
     next()
 })
 

@@ -1,5 +1,4 @@
 module.exports = casaService
-console.log('here at casa service')
 
 function casaService(options) {
     // let Casa
